@@ -1,5 +1,3 @@
-CREATE DATABASE oscar;
-USE oscar;
 
 -- Exemplo de como criar um banco
 -- CREATE database oscar_database;
@@ -15,7 +13,7 @@ DROP TABLE IF EXISTS indicados_ao_oscar;
 
 -- Alguns exemplos de regras/constraints:
 -- PRIMARY KEY     > torna o campo único e obrigatório -> Só pode ser utilizado uma única vez por tabela. 
--- AUTO_INCREMENT  > incrementa/insere valor automaticamente
+-- AUTO_INCREMENT  >
 -- NOT NULL        > Não Vazio/Obrigatório
 -- UNIQUE          > Único
 -- DEFAULT         > Se o campo estiver vazio ele preencherá automaticamente com o valor informado ao lado
